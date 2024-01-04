@@ -1,9 +1,9 @@
 {
-  "name": "vivace-doc",
+  "name": "interview-doc",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/xiumubai/vivace-doc.git",
-  "author": "xiumubai <1547702880@qq.com>",
+  "repository": "https://github.com/caslanbigeyes/interview-doc.git",
+  "author": "blue <781650249@qq.com>",
   "license": "MIT",
   "scripts": {
     "docs:dev": "vitepress dev docs",
