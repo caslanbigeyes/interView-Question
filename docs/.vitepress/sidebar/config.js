@@ -255,6 +255,13 @@ const git = [
   ["git/conflict", "说说 git 发生冲突的场景？如何解决？"],
   ["git/git reset_ git revert", "说说你对git reset 和 git revert 的理解？区别？"],
 ]
+
+
+const questions= [
+  ["questions/questions", "说说你对版本管理的理解？常用的版本管理工具有哪些？"],
+]
+
+
 function tranvers(r) {
   const l = r.map((item, index) => {
     return {
@@ -264,5 +271,6 @@ function tranvers(r) {
   })
   return l;
 }
+
 
 JSON.stringify(tranvers(git));

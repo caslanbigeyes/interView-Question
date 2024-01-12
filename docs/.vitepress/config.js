@@ -1,11 +1,3 @@
-/*
- * @Author: 朽木白
- * @Date: 2022-09-03 01:09:44
- * @LastEditors: xxx@xxx.com
- * @LastEditTime: 2022-09-23 10:15:07
- * @Description:
- */
-
 import sidebarCSS from './sidebar/css';
 import sidebarECMAScript from './sidebar/js';
 import sidebarES6 from './sidebar/es.js';
@@ -19,6 +11,8 @@ import sidebarTs from './sidebar/typescript.js';
 import sidebarAlgorithm from './sidebar/algorithm.js';
 import sidebarApplet from './sidebar/applet.js';
 import sidebarGit from './sidebar/git.js';
+import sidebarQuestions from './sidebar/questions.js';
+
 
 module.exports = {
   title: 'vivace-itnerview',
@@ -121,8 +115,12 @@ module.exports = {
       },
       {
         text: "Git",
-        link: '/git/git',
+        link: '/git/version_control',
       },
+      {
+        text: '面试题',
+        link: '/questions/questions1',
+      }
     ],
     sidebar: {
       '/css/': sidebarCSS(),
@@ -138,6 +136,7 @@ module.exports = {
       '/algorithm/': sidebarAlgorithm(),
       '/applet/': sidebarApplet(),
       '/git/': sidebarGit(),
+      '/questions/': sidebarQuestions()
     },
   },
 };
