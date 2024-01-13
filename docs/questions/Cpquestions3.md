@@ -1,6 +1,5 @@
   # 实现一个eventBus,其中订阅只要一次
-        ````
-class EventBus {
+````class EventBus {
     constuctor() {
         this.events = {};
     }
@@ -53,4 +52,4 @@ eventBus.subScribe('eat', data => {
 eventBus.publish('eat', { username: 'me' })
 
 console.log(eventBus)
-        ````
+````

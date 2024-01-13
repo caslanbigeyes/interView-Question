@@ -6,7 +6,7 @@ export default function sidebarNode() {
             items: [
                 {"text":'一面'},
                 { "link": "/questions/questions1", "text": "1.面试官：闭包的概念？" },
-                { "link": "/questions/questions2", "text": "2.# 面试官：讲讲useEffect原理,监听的是对象数组，对象属性发生变化，数组长度没有发生变化,会不会重新渲染？" },
+                { "link": "/questions/questions2", "text": "2.面试官：讲讲useEffect原理,监听的是对象数组，对象属性发生变化，数组长度没有发生变化,会不会重新渲染？" },
                 { "link": "/questions/questions3", "text": "3.面试官：react hooks相对于class组件 ，好在哪里？" },
                 { "link": "/questions/questions4", "text": "4.面试官：vue和react的区别？" },
                 { "link": "/questions/questions5", "text": "5.面试官：rollup和webpack区别？" },
@@ -32,6 +32,20 @@ export default function sidebarNode() {
                 { "link": "/questions/MLquestions8", "text": "8.为什么出现react hooks？" },
                 { "link": "/questions/MLquestions9", "text": "9.面试官：一道对象扁平化算法题？" },
                 {"text":'二面'},
+            ]
+        },
+          {
+            text: 'coupang（外企）',
+            collapsible: true,
+            items: [
+                {"text":'一面'},
+                { "link": "/questions/Cpquestions1", "text": "1.面试官：实现一个骨架屏？" },
+                {"text":'还有一些八股文忘了..'},
+                {"text":'二面'},
+                { "link": "/questions/Cpquestions2", "text": "2.字符串分割取值" },
+                { "link": "/questions/Cpquestions3", "text": "3.实现一个eventBus,其中订阅只要一次" },
+                { "link": "/questions/Cpquestions4", "text": "4.为什么要使用条件hook， 如果一定要用的话要怎么写？" },
+
             ]
         }
     ]
