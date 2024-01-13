@@ -12,6 +12,8 @@ import sidebarAlgorithm from './sidebar/algorithm.js';
 import sidebarApplet from './sidebar/applet.js';
 import sidebarGit from './sidebar/git.js';
 import sidebarQuestions from './sidebar/questions.js';
+import sidebarEssay from './sidebar/essay';
+
 
 
 module.exports = {
@@ -120,6 +122,10 @@ module.exports = {
       {
         text: '面试题',
         link: '/questions/questions1',
+      },
+      {
+        text: '个人随笔',
+        link: '/essay/note',
       }
     ],
     sidebar: {
@@ -136,7 +142,8 @@ module.exports = {
       '/algorithm/': sidebarAlgorithm(),
       '/applet/': sidebarApplet(),
       '/git/': sidebarGit(),
-      '/questions/': sidebarQuestions()
+      '/questions/': sidebarQuestions(),
+      '/essay/':sidebarEssay(),
     },
   },
 };
