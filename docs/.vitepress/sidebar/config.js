@@ -159,6 +159,8 @@ const webpack = [
   ["webpack/performance", "说说如何借助webpack来优化前端性能？"],
   ["webpack/improve_build", "如何提高webpack的构建速度？"],
   ["webpack/Rollup_Parcel_snowpack_Vite", "与webpack类似的工具还有哪些？区别？"],
+  ["webpack/build_speed", "如何提升 webpack 构建资源的速度？"],
+
 ]
 
 
