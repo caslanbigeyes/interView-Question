@@ -4,7 +4,7 @@ layout: home
 title: Vivce-Interview
 
 hero:
-  name: Vivace-Interview
+  name: Taro
   text: Knowledge of Interview
   tagline: JavaScript, ES6,  CSS, Vue2, Vue3, React, WebPack, Git, Http, NodeJs, algorithm.
   actions:
@@ -13,5 +13,5 @@ hero:
       link: /demo/index.md
     - theme: alt
       text: View on GitHub
-      link: https://github.com/xiumubai
+      link: https://github.com/caslanbigeyes
 ---

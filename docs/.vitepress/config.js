@@ -103,10 +103,10 @@ module.exports = {
         link: '/NodeJS/nodejs',
       },
 
-      {
-        text: "Algorithm",
-        link: '/algorithm/Algorithm',
-      },
+      // {
+      //   text: "Algorithm",
+      //   link: '/algorithm/Algorithm',
+      // },
       {
         text: "小程序",
         link: '/applet/applet',
