@@ -18,7 +18,7 @@ console.log(window.a) // 10
 ```js
 console.log(a) // undefined
 var a = 20
-```
+```docs/essay/note1.md
 
 在编译阶段，编译器会将其变成以下执行
 
