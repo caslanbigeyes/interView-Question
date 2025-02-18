@@ -2,7 +2,9 @@ import sidebarCSS from './sidebar/css';
 import sidebarECMAScript from './sidebar/js';
 import sidebarES6 from './sidebar/es.js';
 import sidebarVue from './sidebar/vue.js';
+import sidebarGo from './sidebar/go.js';
 import sidebarVue3 from './sidebar/vue3.js';
+import sidebarWeb3 from './sidebar/web3.js';
 import sidebarReact from './sidebar/react.js';
 import sidebarWebpack from './sidebar/webpack.js';
 import sidebarHttp from './sidebar/http.js';
@@ -42,7 +44,7 @@ module.exports = {
     ],
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present caslanbigeyes',
+      copyright: 'Copyright © 2025-present caslanbigeyes',
     },
     algolia: {
       indexName: 'vuejs',
@@ -126,6 +128,14 @@ module.exports = {
       {
         text: '个人随笔',
         link: '/essay/note',
+      },
+      {
+        text: 'Web3',
+        link: '/web3/1',
+      },
+      {
+        text: 'go',
+        link: '/go/1',
       }
     ],
     sidebar: {
@@ -134,6 +144,7 @@ module.exports = {
       '/es6/': sidebarES6(),
       '/vue/': sidebarVue(),
       '/vue3/': sidebarVue3(),
+      '/web3/': sidebarWeb3(),
       '/React/': sidebarReact(),
       '/webpack/': sidebarWebpack(),
       '/http/': sidebarHttp(),
@@ -143,7 +154,8 @@ module.exports = {
       '/applet/': sidebarApplet(),
       '/git/': sidebarGit(),
       '/questions/': sidebarQuestions(),
-      '/essay/':sidebarEssay(),
+      '/essay/': sidebarEssay(),
+      '/go/': sidebarGo(),
     },
   },
 };

@@ -35,7 +35,7 @@ export default function sidebarNode() {
             ]
         },
           {
-            text: 'coupang（外企）',
+            text: 'coupang',
             collapsible: true,
             items: [
                 {"text":'一面'},
