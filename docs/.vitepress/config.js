@@ -16,7 +16,7 @@ import sidebarGit from './sidebar/git.js';
 import sidebarQuestions from './sidebar/questions.js';
 import sidebarEssay from './sidebar/essay';
 
-
+import sidebarDocker from './sidebar/docker.js'
 
 module.exports = {
   title: 'vivace-itnerview',
@@ -105,10 +105,10 @@ module.exports = {
         link: '/NodeJS/nodejs',
       },
 
-      // {
-      //   text: "Algorithm",
-      //   link: '/algorithm/Algorithm',
-      // },
+      {
+        text: "docker",
+        link: '/docker/note',
+      },
       {
         text: "小程序",
         link: '/applet/applet',
@@ -156,6 +156,7 @@ module.exports = {
       '/questions/': sidebarQuestions(),
       '/essay/': sidebarEssay(),
       '/go/': sidebarGo(),
+      '/docker/': sidebarDocker()
     },
   },
 };
