@@ -129,14 +129,14 @@ module.exports = {
         text: '个人随笔',
         link: '/essay/note',
       },
-      {
-        text: 'Web3',
-        link: '/web3/1',
-      },
-      {
-        text: 'go',
-        link: '/go/1',
-      }
+      // {
+      //   text: 'Web3',
+      //   link: '/web3/1',
+      // },
+      // {
+      //   text: 'go',
+      //   link: '/go/1',
+      // }
     ],
     sidebar: {
       '/css/': sidebarCSS(),
@@ -155,8 +155,8 @@ module.exports = {
       '/git/': sidebarGit(),
       '/questions/': sidebarQuestions(),
       '/essay/': sidebarEssay(),
-      '/go/': sidebarGo(),
-      '/docker/': sidebarDocker()
+      // '/go/': sidebarGo(),
+      // '/docker/': sidebarDocker()
     },
   },
 };
