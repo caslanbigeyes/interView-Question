@@ -1,0 +1,1 @@
+import{_ as e,c as t,o}from"./chunks/framework.HUmqWwux.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"docker/note.md","filePath":"docker/note.md","lastUpdated":1741079221000}'),a={name:"docker/note.md"};function r(n,c,s,d,p,_){return o(),t("div")}const f=e(a,[["render",r]]);export{m as __pageData,f as default};
