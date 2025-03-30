@@ -16,9 +16,7 @@ import sidebarGit from './sidebar/git.js';
 import sidebarQuestions from './sidebar/questions.js';
 import sidebarEssay from './sidebar/essay';
 
-
-
-module.exports = {
+export default {
   title: 'vivace-itnerview',
   description: 'interview docs',
   lastUpdated: true,
@@ -35,7 +33,7 @@ module.exports = {
   themeConfig: {
     siteTitle: 'Web Interview',
     logo: '/logo.png',
-    laslltUpdatedText: '最后更新',
+    lastUpdatedText: '最后更新',
     socialLinks: [
       {
         icon: 'github',
@@ -69,7 +67,7 @@ module.exports = {
             link: '/JavaScript/data_type',
           },
           {
-            text: "es6",
+            text: "es6", 
             link: '/es6/var_let_const',
           },
           {
@@ -99,44 +97,6 @@ module.exports = {
           },
         ]
       },
-
-      // {
-      //   text: "node",
-      //   link: '/NodeJS/nodejs',
-      // },
-
-      // {
-      //   text: "Algorithm",
-      //   link: '/algorithm/Algorithm',
-      // },
-      // {
-      //   text: "小程序",
-      //   link: '/applet/applet',
-      // },
-      // {
-      //   text: "http",
-      //   link: '/http/HTTP_HTTPS',
-      // },
-      // {
-      //   text: "Git",
-      //   link: '/git/version_control',
-      // },
-      // {
-      //   text: '面试题',
-      //   link: '/questions/questions1',
-      // },
-      // {
-      //   text: '个人随笔',
-      //   link: '/essay/note',
-      // },
-      // {
-      //   text: 'Web3',
-      //   link: '/web3/1',
-      // },
-      // {
-      //   text: 'go',
-      //   link: '/go/1',
-      // }
     ],
     sidebar: {
       '/css/': sidebarCSS(),
@@ -147,15 +107,6 @@ module.exports = {
       '/web3/': sidebarWeb3(),
       '/React/': sidebarReact(),
       '/webpack/': sidebarWebpack(),
-      '/http/': sidebarHttp(),
-      '/NodeJS/': sidebarNode(),
-      '/typescript/': sidebarTs(),
-      '/algorithm/': sidebarAlgorithm(),
-      '/applet/': sidebarApplet(),
-      '/git/': sidebarGit(),
-      '/questions/': sidebarQuestions(),
-      '/essay/': sidebarEssay(),
-      '/go/': sidebarGo(),
     },
   },
 };
