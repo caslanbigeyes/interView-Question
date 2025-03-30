@@ -33,7 +33,7 @@ module.exports = {
     ],
   ],
   themeConfig: {
-    siteTitle: 'Web Interview',
+    siteTitle: 'taro',
     logo: '/logo.png',
     laslltUpdatedText: '最后更新',
     socialLinks: [
