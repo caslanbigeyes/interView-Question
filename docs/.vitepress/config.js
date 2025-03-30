@@ -100,43 +100,43 @@ module.exports = {
         ]
       },
 
-      {
-        text: "node",
-        link: '/NodeJS/nodejs',
-      },
+      // {
+      //   text: "node",
+      //   link: '/NodeJS/nodejs',
+      // },
 
       // {
       //   text: "Algorithm",
       //   link: '/algorithm/Algorithm',
       // },
-      {
-        text: "小程序",
-        link: '/applet/applet',
-      },
-      {
-        text: "http",
-        link: '/http/HTTP_HTTPS',
-      },
-      {
-        text: "Git",
-        link: '/git/version_control',
-      },
-      {
-        text: '面试题',
-        link: '/questions/questions1',
-      },
-      {
-        text: '个人随笔',
-        link: '/essay/note',
-      },
-      {
-        text: 'Web3',
-        link: '/web3/1',
-      },
-      {
-        text: 'go',
-        link: '/go/1',
-      }
+      // {
+      //   text: "小程序",
+      //   link: '/applet/applet',
+      // },
+      // {
+      //   text: "http",
+      //   link: '/http/HTTP_HTTPS',
+      // },
+      // {
+      //   text: "Git",
+      //   link: '/git/version_control',
+      // },
+      // {
+      //   text: '面试题',
+      //   link: '/questions/questions1',
+      // },
+      // {
+      //   text: '个人随笔',
+      //   link: '/essay/note',
+      // },
+      // {
+      //   text: 'Web3',
+      //   link: '/web3/1',
+      // },
+      // {
+      //   text: 'go',
+      //   link: '/go/1',
+      // }
     ],
     sidebar: {
       '/css/': sidebarCSS(),
