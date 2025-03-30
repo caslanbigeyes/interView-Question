@@ -47,7 +47,10 @@ export default function sidebarNode() {
                 { "link": "/questions/Cpquestions4", "text": "4.为什么要使用条件hook， 如果一定要用的话要怎么写？" },
 
             ]
-        }
+        },
+        {
+            
+        },
     ]
 }
 
