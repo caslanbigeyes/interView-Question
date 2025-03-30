@@ -16,7 +16,7 @@ import sidebarGit from './sidebar/git.js';
 import sidebarQuestions from './sidebar/questions.js';
 import sidebarEssay from './sidebar/essay';
 
-import sidebarDocker from './sidebar/docker.js'
+
 
 module.exports = {
   title: 'vivace-itnerview',
@@ -33,7 +33,7 @@ module.exports = {
     ],
   ],
   themeConfig: {
-    siteTitle: 'taro',
+    siteTitle: 'Web Interview',
     logo: '/logo.png',
     laslltUpdatedText: '最后更新',
     socialLinks: [
@@ -105,10 +105,10 @@ module.exports = {
         link: '/NodeJS/nodejs',
       },
 
-      {
-        text: "docker",
-        link: '/docker/note',
-      },
+      // {
+      //   text: "Algorithm",
+      //   link: '/algorithm/Algorithm',
+      // },
       {
         text: "小程序",
         link: '/applet/applet',
@@ -129,14 +129,14 @@ module.exports = {
         text: '个人随笔',
         link: '/essay/note',
       },
-      // {
-      //   text: 'Web3',
-      //   link: '/web3/1',
-      // },
-      // {
-      //   text: 'go',
-      //   link: '/go/1',
-      // }
+      {
+        text: 'Web3',
+        link: '/web3/1',
+      },
+      {
+        text: 'go',
+        link: '/go/1',
+      }
     ],
     sidebar: {
       '/css/': sidebarCSS(),
@@ -155,8 +155,7 @@ module.exports = {
       '/git/': sidebarGit(),
       '/questions/': sidebarQuestions(),
       '/essay/': sidebarEssay(),
-      // '/go/': sidebarGo(),
-      // '/docker/': sidebarDocker()
+      '/go/': sidebarGo(),
     },
   },
 };
