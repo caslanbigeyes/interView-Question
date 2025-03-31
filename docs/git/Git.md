@@ -63,6 +63,27 @@ git，是一个分布式版本控制软件，最初目的是为更好地管理`L
 但实际上还有很多命令，如果想要熟练使用，还有60个多命令，通过这些命令的配合使用，能够提高个人工作效率和团队协助能力
 
 
+## 四、添加多个仓库
+git remote -v
+git remote add backup https://gitlab.com/user/repo.git
+
+```
+origin  https://github.com/user/repo.git (fetch)
+origin  https://github.com/user/repo.git (push)
+backup  https://gitlab.com/user/repo.git (fetch)
+backup  https://gitlab.com/user/repo.git (push)
+```
+
+- 推送到origin  git push origin main
+- 推送backup   git  push backup main
+- 同时推送多个 
+ - git remote set-url --add --push origin https://github.com/user/repo.git
+ - git remote set-url --add --push origin https://gitlab.com/user/repo.git
+
+- 同时拉取 git fetch --all
+
+
+
 
 ## 参考文献
 
